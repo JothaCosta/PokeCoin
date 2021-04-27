@@ -1,0 +1,48 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.justCompletedColor{
+  position: absolute;
+  background-color: var(--red-front);
+  height: 50%;
+  width: 100%
+
+
+  /*Tem que resolve essa parada*/
+
+} 
+
+.front{
+  width: 35rem;
+  background: var(--red-front);
+  transform: skew(-25deg);
+}
+
+.back{
+  width: 10rem;
+  background: var(--red-back);
+  transform: skew(-25deg);
+
+  margin-left: 0;
+}
+
+
+
+.information{
+  position: fixed;
+  display: flex;
+
+  margin: 12rem 0rem; 
+  
+}
+
+.selectCoin{
+  position: fixed;
+  display: flex;
+
+  margin: 2rem 10rem;
+}

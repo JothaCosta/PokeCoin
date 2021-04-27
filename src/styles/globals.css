@@ -1,0 +1,47 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+:root{
+/* Light */
+  --light-theme:#F4F4F4;
+  --red-front:#E14040;
+  --red-back:#CC3636;
+  --title-box:#C4C4C4;
+
+/*Dark*/
+  --dark-theme:#4F4D4D;
+  --blue-front:#183264;
+  --blue-back:#254370;
+
+/*Global*/
+  --white: #FFFFFF;
+  --black:#000000;
+
+}
+
+@media(max-width:1080px){
+  html{
+    font-size: 93.75%;
+  }
+}
+
+@media(max-width:720px){
+  html{
+    font-size: 87.5%;
+  }
+}
+
+body{
+  background-color: var(--light-theme);
+}
+
+body{
+  font: 400 1.25rem 'Inter',sans-serif;
+}
+
+button{
+  cursor: pointer;
+}

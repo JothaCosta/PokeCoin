@@ -1,0 +1,39 @@
+.container{
+  height: 100%;
+  position: relative;
+}
+
+
+.headBar{
+  position:absolute;
+  display: flex;
+
+
+  width: 29.4%;
+  margin-top: 2rem;
+  margin-left: 21.98rem;  
+
+  
+
+ }
+
+ .justCompletedColor{
+   position: absolute; 
+
+   height: 4.15rem;
+   width: 2rem;
+
+   margin-top: 2rem;
+   margin-left: 49rem;
+
+   background-color: var(--black);
+ }
+
+ .showPokemon{
+   position: fixed;
+
+   margin-top: 8.5rem;
+   margin-left: 12rem;
+ }
+
+

@@ -1,0 +1,7 @@
+.container {
+  height: 100vh;
+  max-width: 992px;
+  
+  display: flex;
+  flex-direction: row;
+}

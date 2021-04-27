@@ -1,0 +1,87 @@
+.container{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+
+.left{ 
+  margin-left: 1rem;
+  margin-right: 5.5rem;
+  cursor: pointer; 
+  color:var(--white)
+}
+
+.left:hover{
+  border-bottom: 3px solid var(--white);
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  opacity: 85%;
+
+  transition: 0.2s;
+   
+}
+
+.coin{
+  align-items: center;
+
+  display: flex;
+  flex-direction: row;
+}
+.right{
+  margin-left: 5.5rem;
+  cursor: pointer; 
+  color:var(--white);
+
+}
+
+.right:hover{
+  border-bottom: 3px solid var(--white);
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  opacity: 85%;
+
+  transition: 0.2s;
+
+}
+
+
+.dollar{
+  color: var(--white);
+  align-items: center;
+  justify-content: center;
+}
+
+.dollar:hover{
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom: 3px solid var(--white);
+  transition: 0.2s;
+}
+
+.euro{ 
+  color: var(--white);
+  align-items: center;
+  justify-content: center;
+}
+
+.euro:hover{
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom: 3px solid var(--white);
+  transition: 0.2s;
+}
+
+.pound{
+  color: var(--white);
+  align-items: center;
+  justify-content: center;
+}
+
+.pound:hover{
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom: 3px solid var(--white);
+  transition: 0.2s;
+}

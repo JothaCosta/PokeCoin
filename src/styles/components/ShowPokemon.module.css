@@ -1,0 +1,10 @@
+.container{
+  height: 100%;
+}
+
+.img img{
+  height: 25rem;
+  width: 25rem;
+  justify-content: center;
+  align-items: center;
+}
